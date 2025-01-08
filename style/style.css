@@ -48,6 +48,7 @@
     background-image: url("../images/developer.png"),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right ;
+    margin-top: 2px;
     
 }
 /* nav style  */
@@ -57,7 +58,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -194,4 +195,7 @@ footer input[type="text"] ,footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+body{
+  
 }
