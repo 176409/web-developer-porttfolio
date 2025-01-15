@@ -4,7 +4,7 @@
     font-weight: normal;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      "width" 100;
   }
   
 /* shared style  */
@@ -68,7 +68,7 @@ nav{
 
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+     margin-right: 50px;
 }
 
 nav ul li a{
@@ -91,7 +91,7 @@ nav ul{
     margin: 0px 35px 0px 200px ;
 }
 .banner-content{
-    max-width: 580px;
+    max-height: 580px;
 }
 .banner-greetings{
   font-size: 45px;  
@@ -199,3 +199,68 @@ footer input[type="text"] ,footer textarea{
 body{
   
 }
+
+
+
+/* responsive  */
+
+
+@media screen and (max-width: 576px) {
+    .skills-container,
+     .resume-container,
+     .about-items,
+     .about,
+     .banner,
+     nav,
+     nav>ul
+    
+     {
+        flex-direction: column;
+
+    }
+
+    nav>ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .resume-container{
+        padding: 20px;
+    }
+
+    footer, .about{
+        padding: 20px;
+        
+    }
+    footer{
+        flex-direction: column;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"], footer input[type="email"],footer textarea{
+        width: calc(100% - 40px);
+    }
+
+
+.banner{
+    margin: 20px;
+}
+
+.header{
+    background-image: none;
+}
+
+.banner-profile-pic{
+    width: 100%;
+}
+
+}
+
+
+
+
+
